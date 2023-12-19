@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #080808;
+    color: #fff;
+    padding: 10px 10%;
+
+}
+
+#header{
+    width:50%;
+    height: 100vh;
+    /* background-image: url(images/lakeside.png); */
+    background-size: cover;
+    background-position: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px; 
+    height: auto;
+    /* border-radius: 500px; */
+    /* overflow:hidden;
+    object-fit: cover; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Adjust spacing between links as needed */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Responsive styles - adjust as needed */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 50;
+    max-width: 600px; 
+    white-space: nowrap;
+    color: #ff5733;
+    margin: 0;
+}
+
+.header-text h1 span {
+    display: block; /* Display each span as a block element */
+    margin-top: 10px; /* Adjust the margin as needed for spacing */
+    color: #ff5733; /* Example color, adjust as needed */
+    font-weight: bold; /* Example style, adjust as needed */
+}
+
+.header-text p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.header-text h1 span:last-child {
+    margin-bottom: 0; 
+}
+
