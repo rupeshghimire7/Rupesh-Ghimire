@@ -28,13 +28,95 @@
             </nav>
         </div>
         <div class="header-text">
-            <p><b>Hi, I am Rupesh Ghimire from Nepal.</b></p>
-            <h1></span>I am a Computer Engineering Student,</span> <span>Django practitioner,</span> <span>and AI/ML enthusiast.</span></h1>
+            <p><b>Hi, I am <span>Rupesh Ghimire </span><br>from Nepal.</br></p>
+            <h1></span>Computer Engineering Student</span> <span>Django practitioner</span> <span>AI/ML enthusiast</span></h1>
         </div>
-        
     </div>
 
 
+
+    <div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/profile.png">
+                    </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Myself</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur velit non eveniet tempore iure laudantium reprehenderit quidem eius, vel est at, et doloremque saepe. Voluptatibus dolores suscipit dolorem libero.
+                        </p>
+                        <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                            <div class="tab-links" onclick="opentab('certifications')">Certifications</div>
+                            <div class="tab-links" onclick="opentab('involvements')">Involvements</div>
+                        </div>
+
+                        <!-- skills  -->
+                        <div class="tab-contents active-tab" id="skills"> 
+                            <ul>
+                                <li><span>Python Programming</span><br>Programming Language</li>
+                                <li><span>Django</span><br>Web Framework</li>
+                                <li><span>AI</span><br> Artificial Intelligence </li>
+                            </ul>
+                        </div>
+
+                        <!-- edu  -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>IOE</span><br>Programming Language</li>
+                                <li><span>+2</span><br>Web Framework</li>
+                                <li><span>Fusemachines</span><br> Artificial Intelligence </li>
+                            </ul>
+                        </div>
+
+                        <!-- certifications  -->
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>ML</span><br>Programming Language</li>
+                                <li><span>Django</span><br>Web Framework</li>
+                                <li><span>DL</span><br> Artificial Intelligence </li>
+                            </ul>
+                        </div>
+
+                        <!-- involvements  -->
+                        <div class="tab-contents" id="involvements">
+                            <ul>
+                                <li><span>Student Ambassador</span><br>Programming Language</li>
+                                <li><span>Coding Competition</span><br>Web Framework</li>
+                                <li><span>Mentorship</span><br> Artificial Intelligence </li>
+                                <li><span>Hult Prize</span><br> Artificial Intelligence </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+
+    </script>
     
+
 </body>
 </html>
