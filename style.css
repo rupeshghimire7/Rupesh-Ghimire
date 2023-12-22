@@ -114,7 +114,7 @@ a {
     content: "";
     position: absolute;
     bottom: 42%;
-    left: 35%;
+    left: 20%;
     height: 5rem;
     /* width: 100%; */
     background-color: #010718;
@@ -126,11 +126,11 @@ a {
 
     40%,
     60% {
-        left: calc(75% + 4px);
+        left: calc(80% + 4px);
     }
 
     100% {
-        left: 40%;
+        left: 20%;
     }
 }
 
@@ -155,6 +155,7 @@ a {
 
 .about-col-1 {
     flex-basis: 35%;
+    margin-bottom: 4rem;
 }
 
 .about-col-1 .about-image {
@@ -218,6 +219,12 @@ a {
     font-weight: 400;
 }
 
+.tab-contents ul li .org{
+    color: rgb(51, 50, 50);
+    font-size: 12px;
+    font-weight: 300;
+}
+
 .tab-contents {
     display: none;
 }
@@ -225,6 +232,10 @@ a {
 .tab-contents.active-tab {
     display: block;
 
+}
+.certificate-link{
+    color: #4070F4;
+    font-size: x-small;
 }
 
 
