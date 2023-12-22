@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>rupeshghimire7</title>
-    <link rel="stylesheet" href="style.css" > 
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/4ee6559991.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
     <div id="header">
-        <div class="container">
+        <div class="container-header">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="images/logo.png" class="logo" />
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -29,158 +30,211 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
         </div>
+
         <div class="header-text">
-            <p><b>Hi, I am <span>Rupesh Ghimire </span><br>from Nepal.</br></p>
-            <h1></span>Computer Engineering Student</span> <span>Django practitioner</span> <span>AI/ML enthusiast</span></h1>
+            <span class="text first-text">I'm a</span>
+            <span class="text sec-text">Freelancer</span>
         </div>
-        
     </div>
 
-
-<!-- --------------About----------------- -->
-
+    <!-- --------------About----------------- -->
 
     <div>
         <div id="about">
-            <div class="container">
+            <div class="container-about">
+                <h1 class="sub-title">About Myself</h1>
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="images/profile.png">
+                        <img src="images/profile.png" class="about-image"/>
                     </div>
 
                     <div class="about-col-2">
-                        <h1 class="sub-title">About Myself</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur velit non eveniet tempore iure laudantium reprehenderit quidem eius, vel est at, et doloremque saepe. Voluptatibus dolores suscipit dolorem libero.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                            consectetur velit non eveniet tempore iure laudantium
+                            reprehenderit quidem eius, vel est at, et doloremque saepe.
+                            Voluptatibus dolores suscipit dolorem libero.
                         </p>
                         <div class="tab-titles">
-                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
-                            <div class="tab-links" onclick="opentab('education')">Education</div>
-                            <div class="tab-links" onclick="opentab('certifications')">Certifications</div>
-                            <div class="tab-links" onclick="opentab('involvements')">Involvements</div>
+                            <div class="tab-links active-link" onclick="opentab('skills')">
+                                Skills
+                            </div>
+                            <div class="tab-links" onclick="opentab('education')">
+                                Education
+                            </div>
+                            <div class="tab-links" onclick="opentab('certifications')">
+                                Certifications
+                            </div>
+                            <div class="tab-links" onclick="opentab('involvements')">
+                                Involvements
+                            </div>
                         </div>
 
                         <!-- skills  -->
-                        <div class="tab-contents active-tab" id="skills"> 
+                        <div class="tab-contents active-tab" id="skills">
                             <ul>
-                                <li><span>Python Programming</span><br>Programming Language</li>
-                                <li><span>Django</span><br>Web Framework</li>
-                                <li><span>AI</span><br> Artificial Intelligence </li>
+                                <li>
+                                    <span>Python Programming</span><br />Programming Language
+                                </li>
+                                <li><span>Django</span><br />Web Framework</li>
+                                <li>
+                                    <span>AI</span><br />
+                                    Artificial Intelligence
+                                </li>
                             </ul>
                         </div>
 
                         <!-- edu  -->
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span>IOE</span><br>Programming Language</li>
-                                <li><span>+2</span><br>Web Framework</li>
-                                <li><span>Fusemachines</span><br> Artificial Intelligence </li>
+                                <li><span>IOE</span><br />Programming Language</li>
+                                <li><span>+2</span><br />Web Framework</li>
+                                <li>
+                                    <span>Fusemachines</span><br />
+                                    Artificial Intelligence
+                                </li>
                             </ul>
                         </div>
 
                         <!-- certifications  -->
                         <div class="tab-contents" id="certifications">
                             <ul>
-                                <li><span>ML</span><br>Programming Language</li>
-                                <li><span>Django</span><br>Web Framework</li>
-                                <li><span>DL</span><br> Artificial Intelligence </li>
+                                <li><span>ML</span><br />Programming Language</li>
+                                <li><span>Django</span><br />Web Framework</li>
+                                <li>
+                                    <span>DL</span><br />
+                                    Artificial Intelligence
+                                </li>
                             </ul>
                         </div>
 
                         <!-- involvements  -->
                         <div class="tab-contents" id="involvements">
                             <ul>
-                                <li><span>Student Ambassador</span><br>Programming Language</li>
-                                <li><span>Coding Competition</span><br>Web Framework</li>
-                                <li><span>Mentorship</span><br> Artificial Intelligence </li>
-                                <li><span>Hult Prize</span><br> Artificial Intelligence </li>
-
+                                <li>
+                                    <span>Student Ambassador</span><br />Programming Language
+                                </li>
+                                <li><span>Coding Competition</span><br />Web Framework</li>
+                                <li>
+                                    <span>Mentorship</span><br />
+                                    Artificial Intelligence
+                                </li>
+                                <li>
+                                    <span>Hult Prize</span><br />
+                                    Artificial Intelligence
+                                </li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-<!-- ------------Services---------------- -->
+    <!-- ------------Services---------------- -->
 
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
-                
                 <div>
                     <i class="fa-solid fa-globe"></i>
                     <h2>Web Design</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia culpa incidunt quia aperiam fugit asperiores consectetur a voluptas veniam, consequatur adipisci nisi neque ex iure repellendus distinctio rerum vitae deserunt.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                
-                <div>
-                    <i class="fa-solid fa-robot"></i>
-                    <h2>AI MODELS</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia culpa incidunt quia aperiam fugit asperiores consectetur a voluptas veniam, consequatur adipisci nisi neque ex iure repellendus distinctio rerum vitae deserunt.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Django Development</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia culpa incidunt quia aperiam fugit asperiores consectetur a voluptas veniam, consequatur adipisci nisi neque ex iure repellendus distinctio rerum vitae deserunt.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                        culpa incidunt quia aperiam fugit asperiores consectetur a
+                        voluptas veniam, consequatur adipisci nisi neque ex iure
+                        repellendus distinctio rerum vitae deserunt.
+                    </p>
                     <a href="#">Learn More</a>
                 </div>
 
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>AI MODELS</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                        culpa incidunt quia aperiam fugit asperiores consectetur a
+                        voluptas veniam, consequatur adipisci nisi neque ex iure
+                        repellendus distinctio rerum vitae deserunt.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Django Development</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                        culpa incidunt quia aperiam fugit asperiores consectetur a
+                        voluptas veniam, consequatur adipisci nisi neque ex iure
+                        repellendus distinctio rerum vitae deserunt.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- ------------------Portfolio-------------------- -->
 
-    <div id="portfolio"> 
+    <div id="portfolio">
         <div class="container">
-        <h1 class="sub-title">Portfolio</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/profile.png">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit incidunt consequatur culpa similique eos, reiciendis cupiditate nisi</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/profile.png" />
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Reprehenderit incidunt consequatur culpa similique eos,
+                            reiciendis cupiditate nisi
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="work">
-                <img src="images/profile.png">
-                <div class="layer">
-                    <h3>Django Web App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit incidunt consequatur culpa similique eos, reiciendis cupiditate nisi</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <div class="work">
+                    <img src="images/profile.png" />
+                    <div class="layer">
+                        <h3>Django Web App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Reprehenderit incidunt consequatur culpa similique eos,
+                            reiciendis cupiditate nisi
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="work">
-                <img src="images/profile.png">
-                <div class="layer">
-                    <h3>AI Models </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit incidunt consequatur culpa similique eos, reiciendis cupiditate nisi</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <div class="work">
+                    <img src="images/profile.png" />
+                    <div class="layer">
+                        <h3>AI Models</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Reprehenderit incidunt consequatur culpa similique eos,
+                            reiciendis cupiditate nisi
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
+            <a href="#" class="btn"> See More</a>
         </div>
-        <a href="#" class="btn"> See More</a>
-    </div>
     </div>
 
     <!-- -------------Contact----------- -->
     <div id="contact">
         <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i> rupeshghimire17@gmail.com</p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i> rupeshghimire17@gmail.com
+                    </p>
                     <p><i class="fa-solid fa-phone"></i> (+977)9868155925</p>
                     <div class="socials">
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -188,15 +242,18 @@
                         <a href="#"><i class="fa-brands fa-square-github"></i></a>
                         <a href="#"><i class="fa-brands fa-medium"></i></a>
                     </div>
-                    <a href="images/CV_Ghimire_Rupesh.pdf" download class="btn btn2"> Download CV</a>
+                    <a href="images/CV_Ghimire_Rupesh.pdf" download class="btn btn2">
+                        Download CV</a>
                 </div>
 
                 <div class="contact-right">
                     <form name="submit-to-google-sheet" action="#">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+                        <button type="submit" class="btn btn2">
+                            <i class="fa-solid fa-paper-plane"></i> Submit
+                        </button>
                     </form>
                     <span id="msg"></span>
                 </div>
@@ -206,71 +263,74 @@
         <div class="copyright">
             <p>Copyright © Rupesh Ghimire</p>
         </div>
-
     </div>
 
-
-
-
-
-
-
-
-
-
-
-<!-- ----------------JavaScript Part--------------- -->
+    <!-- ----------------JavaScript Part--------------- -->
 
     <script>
         // FOR ABOUT ME SECTION TABS
-        var tablinks = document.getElementsByClassName('tab-links');
-        var tabcontents = document.getElementsByClassName('tab-contents');
-        
-        function opentab(tabname){
-            for (tablink of tablinks){
-                tablink.classList.remove('active-link');
-            }
-            for (tabcontent of tabcontents){
-                tabcontent.classList.remove('active-tab');
-            }
-            event.currentTarget.classList.add('active-link');
-            document.getElementById(tabname).classList.add('active-tab');
-        }
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
 
         // FOR Side Menu in SMALL SCREEN
         var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
-            sidemenu.style.right="0"
+        function openmenu() {
+            sidemenu.style.right = "0";
         }
-        function closemenu(){
-            sidemenu.style.right = "-200px"
+        function closemenu() {
+            sidemenu.style.right = "-200px";
         }
-
-
     </script>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxbEJ7oWFgJKvvY-bp79NT-WU06mTveTNesxYwU5mybzf1Azyr_NthQonH1LVmz2-7cKg/exec'
-        const form = document.forms['submit-to-google-sheet']
-    
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbxbEJ7oWFgJKvvY-bp79NT-WU06mTveTNesxYwU5mybzf1Azyr_NthQonH1LVmz2-7cKg/exec";
+        const form = document.forms["submit-to-google-sheet"];
+
         const msg = document.getElementById("msg");
 
-        form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message Sent Successfully."
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },500)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => {
+                    msg.innerHTML = "Message Sent Successfully.";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 500);
+                    form.reset();
+                })
+                .catch((error) => console.error("Error!", error.message));
+        });
     </script>
-    
 
+    <script>
+        const text = document.querySelector(".sec-text");
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Freelancer";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Blogger";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "YouTuber";
+            }, 8000); //1s = 1000 milliseconds
+        };
+        textLoad();
+        setInterval(textLoad, 12000);
+    </script>
 </body>
+
 </html>
